@@ -1,0 +1,8 @@
+{
+  "name": "us.gsky.realmlightning",
+  "description": "RealmLightning",
+  "dependencies": {
+    "@lightningjs/sdk": "^3.2.1",
+    "realm-web": "^1.1.0"
+  }
+}
