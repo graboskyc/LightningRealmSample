@@ -1,0 +1,90 @@
+{
+    "collection": "media",
+    "database": "ig",
+    "filters": [
+        {
+            "name": "just pics",
+            "query": {
+                "type": "picture"
+            },
+            "projection": {
+                "_id": {
+                    "$numberInt": "1"
+                },
+                "tags": {
+                    "$numberInt": "1"
+                },
+                "taken_at": {
+                    "$numberInt": "1"
+                },
+                "trigger": {
+                    "$numberInt": "1"
+                },
+                "type": {
+                    "$numberInt": "1"
+                },
+                "path": {
+                    "$numberInt": "1"
+                },
+                "location": {
+                    "$numberInt": "1"
+                },
+                "filter": {
+                    "$numberInt": "1"
+                },
+                "caption": {
+                    "$numberInt": "1"
+                }
+            },
+            "apply_when": {}
+        }
+    ],
+    "id": "5ff4a4bdb939adfb55153f17",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "read": true,
+            "write": false,
+            "insert": false,
+            "delete": false,
+            "search": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "caption": {
+                "bsonType": "string"
+            },
+            "filter": {
+                "bsonType": "string"
+            },
+            "location": {
+                "bsonType": "string"
+            },
+            "path": {
+                "bsonType": "string"
+            },
+            "tags": {
+                "bsonType": "array",
+                "items": {
+                    "bsonType": "string"
+                }
+            },
+            "taken_at": {
+                "bsonType": "date"
+            },
+            "trigger": {
+                "bsonType": "string"
+            },
+            "type": {
+                "bsonType": "string"
+            }
+        },
+        "title": "medium"
+    }
+}

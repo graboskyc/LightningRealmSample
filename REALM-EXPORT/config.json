@@ -1,0 +1,18 @@
+{
+    "app_id": "rdktest-verjh",
+    "config_version": 20200603,
+    "name": "rdktest",
+    "location": "US-VA",
+    "deployment_model": "LOCAL",
+    "security": {},
+    "hosting": {
+        "enabled": true,
+        "app_default_domain": "rdktest-verjh.mongodbstitch.com"
+    },
+    "custom_user_data_config": {
+        "enabled": false
+    },
+    "sync": {
+        "development_mode_enabled": false
+    }
+}
